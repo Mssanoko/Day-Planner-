@@ -59,4 +59,13 @@ var time9 = beforeTime.add(1, "h");
 time9 = time9.format('hh:mm A');
 $(".block9").text(time9);
 
-function testTime() {
+
+// Event listener to save to local stroage
+$(".saveBtn").click(function () {
+    event.preventDefault();
+    var formValue = $(this).siblings(".form-control").val();
+    console.log("This worked");
+    var listItem = $(this).parent().data("hour");
+
+    localStorage.setItem(listItem, formValue);
+});
