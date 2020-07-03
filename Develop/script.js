@@ -1,3 +1,5 @@
-moment().format('MMMM Do YYYY, h:mm:ss a');
+// Moment declaration for the day
+moment(Date);
+$("#currentDay").text(moment().format('dddd MMMM Do YYYY a'));
 
-$("saveButton").click(function(){
+
