@@ -21,12 +21,18 @@ var time2 = beforeTime.add(1, "h");
 time2 = time2.format('hh:mm A');
 $(".block2").text(time2);
 
-// 11am
+//11am
 var time3 = beforeTime.add(1, "h");
 time3 = time3.format('hh:mm A');
 $(".block3").text(time3);
 
-// 12 PM
+//12pm
 var time4 = beforeTime.add(1, "h");
 time4 = time4.format('hh:mm A');
 $(".block4").text(time4);
+
+//1pm
+var time5 = beforeTime.add(1, "h");
+time5 = time5.format('hh:mm A');
+$(".block5").text(time5);
+
