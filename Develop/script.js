@@ -1,5 +1,5 @@
-// Moment declaration for the day
-moment(Date);
-$("#currentDay").text(moment().format('dddd MMMM Do YYYY a'));
+// Time blocks
 
-
+var time1 = beforeTime.add(0, "h");
+time1 = time1.format('hh:mm A');
+$(".block1").text(time1);
