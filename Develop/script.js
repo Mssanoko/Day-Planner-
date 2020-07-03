@@ -1,5 +1,1 @@
-
-//Event listener
-
-$(".saveButton").click(function () {
-}
+moment().format('MMMM Do YYYY, h:mm:ss a');
