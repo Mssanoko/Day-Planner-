@@ -29,4 +29,7 @@ $(".block4").text(time4);
 var time5 = beforeTime.add(1, "h");
 time5 = time5.format('hh:mm A');
 $(".block5").text(time5);
-
+//2pm time block
+var time6 = beforeTime.add(1, "h");
+time6 = time6.format('hh:mm A');
+$(".block6").text(time6);
