@@ -21,5 +21,8 @@ $(".block2").text(time2);
 var time3 = beforeTime.add(1, "h");
 time3 = time3.format('hh:mm A');
 $(".block3").text(time3);
-
+//12pm time block
+var time4 = beforeTime.add(1, "h");
+time4 = time4.format('hh:mm A');
+$(".block4").text(time4);
 
