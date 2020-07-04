@@ -33,3 +33,15 @@ $(".block5").text(time5);
 var time6 = beforeTime.add(1, "h");
 time6 = time6.format('hh:mm A');
 $(".block6").text(time6);
+//3pm time block
+var time7 = beforeTime.add(1, "h");
+time7 = time7.format('hh:mm A');
+$(".block7").text(time7);
+//4pm time block
+var time8 = beforeTime.add(1, "h");
+time8 = time8.format('hh:mm A');
+$(".block8").text(time8);
+//5pm time block
+var time9 = beforeTime.add(1, "h");
+time9 = time9.format('hh:mm A');
+$(".block9").text(time9);
