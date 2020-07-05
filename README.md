@@ -1,5 +1,4 @@
-# Day-Planner-
-
+Day Planner 
 
 ![Screen Shot 2020-07-05 at 10 25 44 AM](https://user-images.githubusercontent.com/61078512/86534898-48018b80-beaa-11ea-841e-3c25e8cafeeb.png)
 
