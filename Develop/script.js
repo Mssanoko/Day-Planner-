@@ -48,7 +48,8 @@ $(document).ready(function() {
     var formValue = $(this).siblings(".description").val();
     console.log(this);
     var listItem = $(this).parent().attr("id");
-   
+    console.log(listItem);
+    
     localStorage.setItem(listItem, formValue);
     });
 
