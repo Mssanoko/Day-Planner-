@@ -46,7 +46,7 @@ $(document).ready(function() {
     // listen for save button clicks
     $(".saveBtn").on("click", function() {
     var formValue = $(this).siblings(".description").val();
-    console.log(formValue);
+    console.log(this);
     var listItem = $(this).parent().attr("id");
    
     localStorage.setItem(listItem, formValue);
